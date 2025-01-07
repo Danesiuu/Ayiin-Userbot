@@ -79,7 +79,7 @@ class Config:
         BLACKLIST_CHAT = [-1001473548283, -1001675396283, -1001718852988]
 
     # Userbot Session String
-    STRING_SESSION = getenv("STRING_SESSION", None)
+    STRING_SESSION = getenv("BQDNvmIAbq3lsOizkIvRJz1HVdoXxtlgqCvgQvBagIoqDf1-SwbJYkVANFlxglFMW_32_xCLCh4U46fIvCSY8pfs1lh26GMgqciPn-JKoHxmGwupibT9ZfUbzh2o7uL-L35ZuY89fItVc6ngzjF0fcrn1F78WEOjHHLy0FXFu_tUAoPZ0-LdHc73gZlkuHnA9iXux5So50ke6TVwBNDP3Y4L9bsu9N8tBmoNoC1VeWi4UPzTZ_XpeTdAZtZltFHZCOeLEsatwyy_Ibp5Ta9yn7eh3g0KWCzI5nvCu2KhGLFE7Kmms53Lj_hFjPISHb9Kmc-asRbHpRb9pbpaEvHxBbvD_CbriwAAAAGZo-RgAA", None)
 
     # Logging channel/group ID configuration.
     BOTLOG_CHATID = int(getenv("BOTLOG_CHATID", "0"))
