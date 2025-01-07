@@ -14,7 +14,7 @@ DEVS = [
     844432220, # Risman
     883761960, # Ari
     2130526178, # Alfa
-    1663258664, # Kyy
+    6872622176, # Kyy
 ]
 
 
@@ -57,12 +57,12 @@ GCAST_BLACKLIST = [
 
 class Config:
     # Telegram App KEY and HASH
-    API_KEY = int(getenv("API_KEY") or 0)
-    API_HASH = str(getenv("API_HASH") or None)
+    API_KEY = int(getenv("23990748") or 0)
+    API_HASH = str(getenv("cf8f3b25ce525ebee03fdefb62facb4c") or None)
 
     # Inline bot helper
-    BOT_TOKEN = getenv("BOT_TOKEN", None)
-    BOT_USERNAME = getenv("BOT_USERNAME", None)
+    BOT_TOKEN = getenv("7307935936:AAGJP8mQycBMQr1zC2wV2tJ8pu43oQCp5no", None)
+    BOT_USERNAME = getenv("DanzzUbot_bot", None)
 
     OPENAI_API_KEY = getenv("OPENAI_API_KEY", None)
 
